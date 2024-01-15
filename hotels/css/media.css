@@ -1,0 +1,455 @@
+
+@media (max-width: 1200px) {
+  .header__list {
+    gap: 20px;
+  }
+
+  .header__buttons {
+    gap: 20px;
+  }
+
+  .benefits__list {
+    --offsets: 2;
+  }
+
+  .placement__top {
+    flex-direction: column;
+  }
+
+  .placement__article {
+    height: 100%;
+  }
+
+  .placement__link {
+    font-size: 15px;
+  }
+
+  .last-card {
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .placement__link {
+    font-size: 15px;
+  }
+
+  .tour__wrapp {
+    padding: 0;
+  }
+
+  .tour__title {
+    padding-left: 40px;
+  }
+
+  .tour__form {
+    padding: 15px 5px;
+  }
+
+  .tour__list {
+    gap: 10px;
+  }
+
+  .contacts__bgr  {
+    width: 50%;
+  }
+
+  .footer__wrapper {
+    background-position: 600px 112px;
+  }
+
+  .footer__address {
+    width: 360px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__contacts {
+    flex-direction: column;
+  }
+
+  .header__logo {
+    width: 180px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .header__bottom {
+    flex-direction: column;
+  }
+
+  .header__nav {
+    margin-bottom: 20px;
+  }
+
+  .section-title {
+    padding: 0;
+  }
+
+  .specials__list {
+    --offsets: 0;
+    flex-direction: column;
+  }
+
+  .specials__article {
+    max-width: 100%;
+    padding: 40px 45px;
+  }
+
+  .services__list {
+    --offsets: 0;
+  }
+
+  .services__img {
+    width: 100%;
+  }
+
+  .benefits__list {
+    --offsets: 1;
+  }
+
+  .placement__list {
+    --offsets: 1;
+  }
+
+  .last-card {
+    padding: 40px 20px;
+  }
+
+  .placement__link {
+    font-size: 22px;
+  }
+
+  .contacts__address {
+    width: 100%;
+  }
+
+  .contacts__placement {
+    max-width: 323px;
+  }
+
+  .contacts__wrapp {
+    width: 323px;
+  }
+
+  .contacts__titmeline {
+    max-width: 323px;
+    letter-spacing: .4px;
+  }
+
+  .contacts__bgr {
+    display: none;
+  }
+
+  .tour__list {
+    flex-direction: column;
+  }
+
+
+
+  .tour__title {
+    text-align: center;
+  }
+
+  .tour__form {
+    justify-content: center;
+    background-color: inherit;
+  }
+
+  .tour__item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .tour__select {
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 1px solid var(--OOO-color);
+  }
+
+  .tour__input {
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 1px solid var(--OOO-color);
+    width: 100%;
+  }
+
+
+
+  .footer__wrapper {
+    background-image: none;
+    flex-direction: column;
+  }
+
+  .footer__left {
+    flex-direction: row;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer__address {
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  .footer__placement {
+    max-width: 250px;
+  }
+
+  .footer__list {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding-bottom: 30px;
+  }
+
+  .header__top {
+    margin: 0;
+  }
+
+  .header__bottom {
+    display: none;
+  }
+
+  .header__cabinet {
+    display: flex;
+    gap: 10px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .burger {
+    display: block;
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid currentColor;
+    width: 40px;
+    height: 40px;
+    color: var(--c93-color);
+  }
+
+  .burger__line {
+    position: absolute;
+    left: 50%;
+    width: 20px;
+    height: 2px;
+    border-radius: inherit;
+    background-color: currentColor;
+    transform: translateX(-50%);
+  }
+
+  .burger__line:nth-child(1) {
+    top: 13px;
+  }
+
+  .burger__line:nth-child(2) {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .burger__line:nth-child(3) {
+    bottom: 13px;
+  }
+
+  .third__card--title {
+    font-size: 40px;
+  }
+
+  .third__card--price {
+    font-size: 20px;
+  }
+
+
+  .benefits__list {
+    --offsets: 0;
+  }
+
+
+  .placement__list {
+    --offsets: 0;
+  }
+
+  .placement__img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .placement__info {
+    padding: 30px;
+    padding-top: 20px;
+  }
+
+  .placement__top {
+    flex-direction: row;
+  }
+
+
+  .contacts__link {
+    width: 145px;
+  }
+
+
+  .tour__select {
+    width: 100%;
+  }
+
+  .footer__text {
+    display: none;
+  }
+
+  .footer__address {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 568px) {
+  .header__top {
+    flex-direction: column;
+  }
+
+  .header__contacts {
+    margin-bottom: 20px;
+  }
+
+
+  .section-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .section {
+    padding-bottom: 30px;
+  }
+
+  .light-text {
+    font-size: 12px;
+  }
+
+
+  .specials__article {
+    padding: 15px;
+  }
+
+  .specials__subtitle {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .specials__price {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .specials__link {
+    font-size: 15px;
+  }
+
+
+  .about__descr {
+    max-width: 100%;
+  }
+
+
+  .services__wrapp {
+    padding: 10px;
+  }
+
+  .services__link {
+    font-size: 14px;
+    line-height: normal;
+    margin-bottom: 5px;
+  }
+
+
+  .benefits__article {
+    padding: 90px 15px 15px;
+    background-position: 15px 15px;
+  }
+
+
+  .placement__info {
+    padding: 15px;
+  }
+
+  .placement__name {
+    font-size: 16px;
+  }
+
+  .placement__country {
+    font-size: 16px;
+  }
+
+  .placement__link {
+    font-size: 18px;
+  }
+
+
+  .tour__wrapp {
+    background-color: inherit;
+  }
+
+  .tour__form {
+    padding: 0;
+  }
+
+  .tour__select {
+    width: 100%;
+  }
+
+
+  .contacts__wrapper {
+    padding: 15px;
+  }
+
+  .contacts__address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacts__list {
+    margin-bottom: 30px;
+  }
+
+  .contacts__item {
+    flex-direction: column;
+  }
+
+  .contacts__subtitle {
+    margin-bottom: 10px;
+  }
+
+  .contacts__wrapp {
+    width: 110px;
+    gap: 10px;
+  }
+
+  .contacts__link {
+    width: 100%;
+    line-height: normal;
+  }
+
+  .contacts__placement {
+    font-size: 12px;
+  }
+
+
+  .footer__wrapper {
+    padding: 15px;
+    align-items: center;
+  }
+
+  .footer__address {
+    align-items: center;
+  }
+
+  .footer__placement {
+    text-align: center;
+  }
+}
