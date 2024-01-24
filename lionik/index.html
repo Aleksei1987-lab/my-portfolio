@@ -340,6 +340,17 @@
     </div>
   </footer>
 
+
+  <script>
+    let burger = document.querySelector('burger');
+    let menu = document.querySelector('header__nav')
+
+    burger.addEventListener('click', function(e){
+      menu.classlist.add('header__nav--open')
+    })
+
+
+  </script>
 </body>
 
 </html>
