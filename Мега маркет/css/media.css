@@ -1,0 +1,74 @@
+
+/* @media (min-width: 160px) {
+
+  .baner__descr {
+    max-width: 143px;
+    font-size: 17px;
+    line-height: 19px;
+  }
+
+  .baner__bottom {
+    padding: 34px 8.8px 46.7px 8px;
+    border-radius: 16px 16px 0 0;
+    background-color: #EDCFFC;
+  }
+} */
+
+@media (min-width: 300px) {
+  .container {
+    width: 300px;
+  }
+
+  .baner__top {
+    padding: 30px;
+  }
+
+  .baner__title span {
+    font-size: 28px;
+  }
+
+  .baner__descr {
+    font-size: 23px;
+    line-height: 25.7px;
+  }
+
+  .baner__percent {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 7.3px 11.7px;
+  }
+
+  .baner__rubbonus,
+  .baner__cashback {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+  }
+
+  .baner__sum {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 7.3px 11.7px;
+  }
+
+  .baner__cashbackplus {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    padding: 7.3px 11.7px;
+  }
+
+  .baner__bonuses {
+    padding-bottom: 250px;
+    background-image: url('../img/КВ-300.png');
+  }
+
+  .baner__copy {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: 0.01em;
+  }
+
+}
+
