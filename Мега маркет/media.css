@@ -1,20 +1,21 @@
 
 
-@media (min-width: 480px) {
+@media (min-width: 415px) { /*for width-480px*/
   .container {
-    padding: 0 36px;
+    padding: 0 46px 0 35px;
   }
 
   .bottom {
     background-position: right bottom;
-    background-size: 250px;
-    padding-top: 23px;
+    background-size: 228px;
+    padding-top: 14px;
+    padding-bottom: 16px;
   }
 
   .bottom__title {
     max-width: 220px;
     font-size: 23px;
-    margin-bottom: 14px;
+    margin-bottom: 15px;
   }
 
   .bonuses {
@@ -23,7 +24,7 @@
 
   .bonuses__percent {
     font-size: 14px;
-    padding: 6px 9px;
+    padding: 3px 11px;
     border-radius: 19px;
   }
 
@@ -31,23 +32,56 @@
     font-size: 9.5px;
     border-radius: 15px;
     padding-right: 7.7px;
-    margin-right: 3.28px;
   }
 
   .bonuses__sum {
     font-size: 12px;
-    padding: 6.3px 7.7px;
+    padding: 2px 8px 4px 10px;
     border-radius: 18.6px;
   }
 
   .bonuses__cashback {
     font-size: 12px;
-    padding: 6.3px 7.7px;
+    padding: 2px 10px 4px 8px;
     border-radius: 18.6px;
+  }
+
+  .bottom__container {
+    padding-right: 35px;
+  }
+
+  .descriptor_top {
+    padding-top: 14px;
+    padding-bottom: 15px;
+  }
+
+  .bottom__descriptor {
+    padding-top: 25px;
+    padding-bottom: 23px;
+  }
+
+  .bottom__descr {
+    font-size: 11.2px;
+    line-height: 99%;
+    letter-spacing: 0;
   }
 }
 
-@media (min-width: 766px) {
+@media (min-width: 600px) {
+  .bottom {
+    background-position: right bottom;
+    background-size: 228px;
+    padding-top: 53px;
+    padding-bottom: 55px;
+  }
+
+  .bottom__container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 730px) {   /*for width-766px*/
   .container {
     padding: 0 46px;
   }
@@ -58,16 +92,22 @@
   }
 
   .bottom {
-    padding-top: 55px;
+    padding-top: 52px;
     padding-bottom: 55px;
-    background-position-y: 0px;
+    background-position-y: bottom;
+    background-position-x: 514px;
   }
 
   .bottom__title {
     max-width: 263px;
     font-size: 28px;
+    letter-spacing: .3px;
     margin: 0;
-    margin-right: 23px;
+    margin-right: 25px;
+  }
+
+  .bonuses {
+    gap: 9.5px;
   }
 
   .bonuses__percent {
@@ -79,82 +119,232 @@
   .bonuses__plus {
     font-size: 11.3px;
     border-radius: 22px;
-    padding-right: 9.2px;
+    padding-right: 11.2px;
   }
 
   .bonuses__sum {
     font-size: 14px;
-    padding: 3px 9.2px;
-    border-radius: 22x;
-  }
-
-  .bonuses__cashback {
-    font-size: 14px;
-    padding: 3px 9.2px;
-    border-radius: 22x;
-  }
-}
-
-@media (min-width: 970px) {
-  .bottom {
-    padding-top: 45px;
-    padding-bottom: 45px;
-    background-position-y: 0px;
-  }
-
-  .bottom__title {
-    max-width: 322px;
-    font-size: 34px;
-  }
-
-  .bonuses__percent {
-    font-size: 20px;
-    padding: 3px 14px;
+    padding: 3px 11.2px 3px 10px;
     border-radius: 22px;
   }
 
-  .bonuses__plus {
-    font-size: 14px;
-    border-radius: 27px;
-    padding-right: 11px;
-  }
-
-  .bonuses__sum {
-    font-size: 17px;
-    padding: 3px 11px;
-    border-radius: 27x;
-  }
-
   .bonuses__cashback {
-    font-size: 17px;
-    padding: 3px 11px;
-    border-radius: 27x;
+    font-size: 14px;
+    padding: 3px 10.2px 4px 10px;
+    border-radius: 22px;
+  }
+
+
+  .descriptor__container {
+    padding: 0 71px 0 46px;
+  }
+
+  .bottom__container {
+    padding: 0 65px 0 46px;
+  }
+
+  .bottom__descriptor {
+    padding-top: 20px;
+    padding-bottom: 13px;
+  }
+
+  .bottom__descr {
+    font-size: 14.2px;
+    line-height: 100%;
+    letter-spacing: .1px;
   }
 }
 
-@media (min-width: 1280px) {
-  .container {
-    padding: 0 47px;
+@media (min-width: 895px) {  /*for width-970px*/
+  .top {
+    padding-top: 27px;
+    padding-bottom: 22px;
   }
 
-  .top {
-    padding-top: 28px;
-    padding-bottom: 28px;
+  .top__container {
+    padding: 0 27px;
+  }
+
+  .top__link {
+    font-size: 12px;
+    letter-spacing: .2px;
+    margin-bottom: 8px;
+  }
+
+  .bottom {
+    position: relative;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    border-radius: 29px 29px 0 0;
+    background-image: none;
+  }
+
+  .bottom__container {
+    padding: 0 22px 0 27px;
   }
 
   .img {
     display: block;
-    top: 50px;
-    right: 300px;
-    max-width: 270px;
+    max-width: 295px;
+    right: 33.2%;
+    top: -33px;
   }
 
   .bottom__container {
     justify-content: space-between;
   }
 
-  .top__link {
-    font-size: 12px;
+  .bottom__title {
+    max-width: 350px;
+    font-size: 37px;
+    margin: 0;
+  }
+
+  .bonuses {
+    gap: 13.5px;
+  }
+
+  .bonuses__percent {
+    font-size: 24px;
+    padding: 4px 16px;
+    border-radius: 23.7px;
+  }
+
+  .bonuses__plus {
+    font-size: 17px;
+    border-radius: 31.5px;
+    padding-right: 13px;
+  }
+
+  .bonuses__sum {
+    font-size: 19px;
+    padding: 6px 15px 6px 14px;
+    border-radius: 31.5px;
+  }
+
+  .bonuses__cashback {
+    font-size: 19px;
+    padding: 6px 16px 6px 12px;
+    border-radius: 31.5px;
+  }
+
+  .descriptor_top {
+    padding-top: 27px;
+    padding-bottom: 22px;
+  }
+
+  .bottom__descriptor {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 29px 29px 0 0;
+  }
+
+  .bottom__descr {
+    font-size: 16px;
+    line-height: 94%;
+    letter-spacing: .28px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .bottom__title {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 1220px) {  /*for width-1280px*/
+  .top {
+    padding-top: 27px;
+    padding-bottom: 22px;
+  }
+
+  .top__container {
+    padding: 0 56px 0 47px;
+  }
+
+  .img {
+    display: block;
+    max-width: 295px;
+    right: 26.2%;
+    top: -35px;
+  }
+
+  .bottom__container {
+    padding: 0 56px 0 47px;
+  }
+
+  .bottom {
+    padding-top: 18px;
+    padding-bottom: 20px;
+    background-image: none;
+  }
+
+  .bottom__title {
+    max-width: 610px;
+    font-size: 44px;
+    line-height: 111%;
+    margin: 0;
+  }
+
+  .top__container {
+    padding: 0 70px 0 47px;
+  }
+
+  .descriptor__padding {
+    padding: 0 56px 0 42px;
+  }
+
+  .bottom__descr {
+    font-size: 18px;
+    line-height: 94%;
+    letter-spacing: .3px;
+  }
+}
+
+@media (min-width: 1400px) {  /*for width-1440px*/
+  .top__container {
+    padding: 0 127px;
+  }
+
+  .bottom__container {
+    padding: 0 127px 0 125px;
+  }
+
+  .bottom__title {
+    margin-bottom: 13px;
+  }
+
+  .img {
+    right: 28.9%;
+    top: -40px;
+  }
+
+  .bottom__descriptor {
+    padding-top: 23px;
+    padding-bottom: 18px;
+    border-radius: 29px 29px 0 0;
+  }
+
+  .bottom__descr {
+    font-size: 18px;
+    line-height: 90%;
+    letter-spacing: 0;
+  }
+}
+
+@media (min-width: 1590px) {  /*for width-1920px*/
+  .top__container {
+    padding: 0 177px 0 119px;
+  }
+
+  .bottom__container {
+    padding: 0 177px 0 118px;
+  }
+
+  .bottom {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background-image: none;
   }
 
   .bottom {
@@ -164,52 +354,42 @@
   }
 
   .bottom__title {
-    max-width: 678px;
-    font-size: 44px;
+    max-width: 650px;
+    font-size: 47px;
+    line-height: 111%;
     margin: 0;
-  }
-
-  .bonuses__percent {
-    font-size: 17px;
-    padding: 5px 14px;
-    border-radius: 37px;
-  }
-
-  .bonuses__plus {
-    font-size: 16px;
-    border-radius: 31px;
-    padding-right: 9.2px;
-  }
-
-  .bonuses__sum {
-    font-size: 14px;
-    padding: 5px 13px;
-    border-radius: 31x;
+    margin-bottom: 10px;
   }
 
   .bonuses__cashback {
-    font-size: 14px;
-    padding: 5px 13px;
-    border-radius: 31 x;
-  }
-}
-
-@media (min-width: 1440px) {
-  .container {
-    padding: 0 127px;
+    font-size: 19px;
+    padding: 6px 16px 8px 12px;
+    border-radius: 31.5px;
   }
 
   .img {
-    right: 400px;
-  }
-}
-
-@media (min-width: 1920px) {
-  .img {
-    right: 600px;
+    max-width: 311px;
+    right: 34.6%;
+    top: -39px;
   }
 
-  .bottom__title {
-    font-size: 47px;
+  .descriptor__container {
+    padding: 0 177px 0 147px;
+  }
+
+  .descriptor__padding {
+    padding: 0 170px 0 152px;
+  }
+
+  .bottom__descriptor {
+    padding-top: 18px;
+    padding-bottom: 14px;
+    border-radius: 29px 29px 0 0;
+  }
+
+  .bottom__descr {
+    font-size: 21px;
+    line-height: 95%;
+    letter-spacing: 0;
   }
 }
