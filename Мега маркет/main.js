@@ -21,13 +21,19 @@ document.addEventListener("DOMContentLoaded", function(){
     }, 15000);
 
     setTimeout(function(){
-      document.querySelector('.descriptor').classList.add('visible')
+      document.querySelector('.banner').classList.remove('visible');
+      document.querySelector('.bottom__title').classList.remove('visible');
+      document.querySelector('.bonuses__percent').classList.remove('visible');
+      document.querySelector('.bonuses__plus1').classList.remove('visible');
+      document.querySelector('.bonuses__plus2').classList.remove('visible');
+
+      document.querySelector('.descriptor').classList.add('visible');
     }, 16000);
     setTimeout(function(){
-      document.querySelector('.descriptor').classList.remove('visible')
+      document.querySelector('.descriptor').classList.remove('visible');
+      showBanner();
     }, 25000);
   }
   showBanner()
-
 
 })
