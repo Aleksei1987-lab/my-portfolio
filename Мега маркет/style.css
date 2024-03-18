@@ -78,6 +78,7 @@ body {
   max-height: 250px;
   margin-bottom: 50px;
   border: 1px solid var(--color-aeaeae);
+  animation: bannerShow 2s linear;
 }
 
 .container {
@@ -109,6 +110,7 @@ body {
 }
 
 .bottom {
+  height: 204px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 25px 25px 0 0;
@@ -130,6 +132,7 @@ body {
   letter-spacing: .1px;
   margin-bottom: 43.5px;
   color: var(--color-8654cc);
+  animation: bottomTitle 2s linear ;
 }
 
 .bonuses {
@@ -146,15 +149,18 @@ body {
   border-radius: 19px;
   color: var(--color-ffe3c7);
   background-color: var(--color-8654cc);
+  animation: bonusesPercent 2s linear;
 }
 
-.bonuses__plus {
+.bonuses__plus1,
+.bonuses__plus2 {
   font-weight: 400;
   font-size: 8px;
   border-radius: 15px;
   padding-right: 6.16px;
   color: var(--color-8654cc);
   background-color: var(--color-fff);
+  animation: bonusesPlus 2s linear;
 }
 
 .bonuses__sum {
@@ -182,6 +188,7 @@ body {
 }
 
 /* DESCRIPTOR_style*/
+
 .descriptor_top {
   padding-top: 14px;
   padding-bottom: 14px;
@@ -202,3 +209,14 @@ body {
   text-transform: uppercase;
   color: var(--color-b69bdb);
 }
+
+
+/* ANIMATION */
+.animate {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
