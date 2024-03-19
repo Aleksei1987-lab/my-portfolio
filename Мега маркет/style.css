@@ -66,6 +66,7 @@ img {
 }
 
 body {
+  position: relative;
   font-family: 'golos', 'sofia-sans', sans-serif;
   min-width: 300px;
   margin: 0;
@@ -132,7 +133,6 @@ body {
   letter-spacing: .1px;
   margin-bottom: 43.5px;
   color: var(--color-8654cc);
-  animation: bottomTitle 2s linear ;
 }
 
 .bonuses {
@@ -154,21 +154,27 @@ body {
 
 .bonuses__plus1,
 .bonuses__plus2 {
+  display: flex;
+  align-items: center;
   font-weight: 400;
   font-size: 8px;
-  border-radius: 15px;
-  padding-right: 6.16px;
+  border-radius: 18px;
+  padding-right: 8px;
   color: var(--color-8654cc);
   background-color: var(--color-fff);
   animation: bonusesPlus 2s linear;
+}
+
+.bonuses__plus2 {
+  padding-right: 7px;
 }
 
 .bonuses__sum {
   display: inline-block;
   font-weight: 700;
   font-size: 9px;
-  margin-right: 2px;
-  padding: 3px 7px;
+  margin-right: 3px;
+  padding: 3px 6px;
   border-radius: 15px;
   background-color: var(--color-fef351);
 }
@@ -177,8 +183,10 @@ body {
   display: inline-block;
   font-weight: 700;
   font-size: 9px;
-  padding: 3px 8px 3px 6px;
-  border-radius: 16.6px;
+  padding: 3px 7px 3px 6px;
+  margin-right: 3px;
+  border-radius: 15px;
+  color: var(--color-fff);
   background-color: var(--color-22d726);
 }
 
@@ -188,6 +196,11 @@ body {
 }
 
 /* DESCRIPTOR_style*/
+.descriptor {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 .descriptor_top {
   padding-top: 14px;
@@ -213,10 +226,14 @@ body {
 
 /* ANIMATION */
 .animate {
-  display: none;
+  opacity: 0;
+  transition: opacity 1.5s ease; /* Длительность анимации и тип анимации */
 }
 
 .visible {
-  display: block;
+  opacity: 1;
 }
+
+
+
 

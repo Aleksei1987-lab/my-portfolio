@@ -6,7 +6,7 @@
   }
 
   .bottom {
-    background-position: right bottom;
+    background-position: 210px bottom;
     background-size: 228px;
     padding-top: 14px;
     padding-bottom: 16px;
@@ -28,22 +28,25 @@
     border-radius: 19px;
   }
 
-  .bonuses__plus {
+  .bonuses__plus1,
+  .bonuses__plus2 {
     font-size: 9.5px;
-    border-radius: 15px;
-    padding-right: 7.7px;
+    padding-right: 9px;
+  }
+
+  .bonuses__plus2 {
+    padding-right: 8px;
   }
 
   .bonuses__sum {
     font-size: 12px;
-    padding: 2px 8px 4px 10px;
-    border-radius: 18.6px;
+    padding: 2px 5px 4px 9px;
+    margin-right: 4px;
   }
 
   .bonuses__cashback {
     font-size: 12px;
-    padding: 2px 10px 4px 8px;
-    border-radius: 18.6px;
+    padding: 3px 9px 4px 9px;
   }
 
   .bottom__container {
@@ -107,7 +110,7 @@
   }
 
   .bonuses {
-    gap: 9.5px;
+    gap: 10px;
   }
 
   .bonuses__percent {
@@ -116,21 +119,21 @@
     border-radius: 19px;
   }
 
-  .bonuses__plus {
+  .bonuses__plus1,
+  .bonuses__plus2 {
     font-size: 11.3px;
-    border-radius: 22px;
     padding-right: 11.2px;
   }
 
   .bonuses__sum {
     font-size: 14px;
-    padding: 3px 11.2px 3px 10px;
+    padding: 4px 8px 4px 10px;
     border-radius: 22px;
   }
 
   .bonuses__cashback {
     font-size: 14px;
-    padding: 3px 10.2px 4px 10px;
+    padding: 4px 10px;
     border-radius: 22px;
   }
 
@@ -172,6 +175,7 @@
   }
 
   .bottom {
+    height: 170px;
     position: relative;
     padding-top: 18px;
     padding-bottom: 20px;
@@ -201,7 +205,7 @@
   }
 
   .bonuses {
-    gap: 13.5px;
+    gap: 14px;
   }
 
   .bonuses__percent {
@@ -210,7 +214,8 @@
     border-radius: 23.7px;
   }
 
-  .bonuses__plus {
+  .bonuses__plus1,
+  .bonuses__plus2 {
     font-size: 17px;
     border-radius: 31.5px;
     padding-right: 13px;
@@ -218,14 +223,13 @@
 
   .bonuses__sum {
     font-size: 19px;
-    padding: 6px 15px 6px 14px;
-    border-radius: 31.5px;
+    padding: 5.5px 11px 6px 13px;
+    margin-right: 7px;
   }
 
   .bonuses__cashback {
     font-size: 19px;
     padding: 6px 16px 6px 12px;
-    border-radius: 31.5px;
   }
 
   .descriptor_top {
@@ -259,7 +263,7 @@
   }
 
   .top__container {
-    padding: 0 56px 0 47px;
+    padding: 0 55px 0 47px;
   }
 
   .img {
@@ -286,7 +290,13 @@
     margin: 0;
   }
 
-  .top__container {
+  .bonuses__cashback {
+    font-size: 19px;
+    padding: 6px 14px 6px 13px;
+    margin-right: 5px;
+  }
+
+  .descriptor__container {
     padding: 0 70px 0 47px;
   }
 
