@@ -1,0 +1,98 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  min-width: 320px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: bisque;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 35px;
+  text-align: center;
+  background-color: bisque;
+}
+
+.game__title {
+  margin-bottom: 30px;
+}
+
+.game__form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.game__input {
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.game__btn {
+  color: #fff;
+  background-color: #000;
+  padding: 5px 7px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.game__btn:disabled {
+  opacity: .5;
+}
+
+.game__field {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  --offsets: 3;
+  gap: 30px;
+}
+
+.game__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc((100% - (30px * var(--offsets))) / (var(--offsets) + 1));
+  height: 90px;
+  font-weight: 700;
+  font-size: 50px;
+  box-shadow: 1px 1px 6px 2px;
+  background-color:#fff;
+}
+
+.game__reset {
+  color: #fff;
+  background-color: #000;
+  padding: 5px 7px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+
+.selected {
+  background-color: rgb(225, 234, 53);
+}
+
+.matched {
+  opacity: 0;
+}
+
+.hidden {
+  display: none;
+}
+
