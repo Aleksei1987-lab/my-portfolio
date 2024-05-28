@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO-DO</title>
+  <link rel="stylesheet" href="./trening_style.css">
+  <script defer src="./trening_main.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      createTodoApp(document.getElementById('todo-field'), "Dad todo list")
+    })
+  </script>
+</head>
+<body>
+  <div class="link-bar">
+    <a href="./my_todo.html" class="header-link">My todos</a>
+    <a href="./dad_todo.html" class="header-link">Dad todos</a>
+    <a href="./mom_todo.html" class="header-link">Mom todos</a>
+  </div>
+  <div class="container" id="todo-field"></div>
+</body>
+</html>
