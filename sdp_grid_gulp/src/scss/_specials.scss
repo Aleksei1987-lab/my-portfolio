@@ -1,0 +1,29 @@
+
+.specials {
+  padding-top: 70px;
+  &__item:not(:nth-of-type(2)) {
+    grid-column: span 3;
+  }
+  &__item:nth-of-type(2) {
+    grid-column: span 6;
+  }
+  &__bgr {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 230px;
+    height: 107px;
+    background-image: url('../img/specials2-bgr.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+.specials4,
+.specials5,
+.specials6 {
+  display: none;
+}
+.specials2 .card__about {
+  position: relative;
+}

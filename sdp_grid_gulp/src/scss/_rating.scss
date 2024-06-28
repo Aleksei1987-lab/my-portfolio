@@ -1,0 +1,10 @@
+
+.rating {
+  &__item {
+    grid-column: span 3;
+    min-height: 420px;
+  }
+}
+.rating .card__about {
+  gap: 21px;
+}

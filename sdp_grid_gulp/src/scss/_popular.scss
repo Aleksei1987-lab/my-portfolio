@@ -1,0 +1,30 @@
+
+.popular {
+  &__list .card {
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 29px;
+    min-height: 405px;
+  }
+  &__item .card__picture {
+    margin: 0;
+    margin-left: -30px;
+  }
+  &__inner-list {
+    margin-bottom: 16px;
+  }
+  &__subtitle {
+    letter-spacing: 1.3px;
+  }
+}
+
+.popular1,
+.popular2 {
+  grid-column: span 6;
+}
+.popular3,
+.popular4,
+.popular5 {
+  grid-column: span 4;
+}

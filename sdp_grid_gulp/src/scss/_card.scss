@@ -1,0 +1,231 @@
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 511px;
+  padding: 30px 8px;
+  border-radius: 10px;
+  background-color: var(--color-f6f6f6);
+  &__flag {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    display: inline-block;
+    min-width: 92px;
+    padding: 10px 29px 10px 19.5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    color: var(--color-fff);
+    background-image: url('../img/card-flag.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+  }
+  &__star {
+    position: absolute;
+    left: 27px;
+    top: 30px;
+    padding: 3px;
+  }
+  &__star span {
+    padding-left: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: var(--color-ff862f);
+  }
+  &__picture {
+    margin-top: auto;
+  }
+  &__about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    margin-top: 19px;
+    width: 100%;
+    padding-left: 23px;
+    padding-right: 10px;
+  }
+  &__name {
+    max-width: 225px;
+    letter-spacing: .6px;
+  }
+  &__text {
+    display: flex;
+    gap: 30px;
+  }
+  &__prevprice {
+    position: relative;
+    line-height: 100%;
+    color: var(--color-999);
+  }
+  &__prevprice::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 8px;
+    width: 100%;
+    height: 1px;
+    background-color: currentColor;
+  }
+  &__pricegrey {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--color-666);
+  }
+
+  &__inner-list {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+  }
+  &__subtitle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding-right: 25px;
+  }
+  &__inner-link {
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    color: var(--color-a65cf0);
+    display: none;
+  }
+  &__inner-link svg {
+    width: 22px;
+    height: 22px;
+  }
+  &__inner-link svg circle {
+    fill: var(--color-fff);
+    stroke: currentColor;
+    transition: fill .3s ease-in-out, stroke .3s ease-in-out;
+  }
+  &__inner-link svg path {
+    stroke: currentColor;
+    transition: fill .3s ease-in-out;
+  }
+  &__inner-link:focus {
+    outline: none;
+  }
+  &__inner-link:focus-visible span::after {
+    opacity: 1;
+  }
+  &__inner-link:focus-visible svg circle {
+    fill: var(--color-c998fb);
+    stroke: var(--color-a65cf0);
+  }
+  &__inner-link:focus-visible svg path {
+    stroke: var(--color-fff);
+  }
+  @media (any-hover: hover) {
+    &__inner-link:hover svg circle {
+      stroke: var(--color-a65cf0);
+      fill: var(--color-a65cf0);
+    }
+    &__inner-link:hover svg path {
+      stroke: var(--color-fff);
+    }
+    &__inner-link:hover span::after {
+      opacity: 1;
+    }
+  }
+  &__inner-link:active {
+    color: var(--color-7033ac);
+  }
+  &__inner-link:active svg circle {
+    stroke: var(--color-7033ac);
+    fill: var(--color-7033ac);
+  }
+  &__inner-link:active svg path {
+    stroke: var(--color-fff);
+  }
+  &__inner-link:active span::after {
+    opacity: 1;
+    background-color: var(--color-7033ac);
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--color-a65cf0);
+    transition: color .3s ease-in-out;
+  }
+  &__link span {
+    position: relative;
+    display: inline-block;
+    padding-right: 3px;
+    letter-spacing: 1px;
+  }
+  &__link span::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 93%;
+    height: 2px;
+    background-color: currentColor;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+  }
+  &__link svg {
+    width: 22px;
+    height: 22px;
+  }
+  &__link svg circle {
+    fill: var(--color-fff);
+    stroke: currentColor;
+    transition: fill .3s ease-in-out, stroke .3s ease-in-out;
+  }
+  &__link svg path {
+    stroke: currentColor;
+    transition: fill .3s ease-in-out;
+  }
+  &__link:focus {
+    outline: none;
+  }
+  &__link:focus-visible span::after {
+    opacity: 1;
+  }
+  &__link:focus-visible svg circle {
+    fill: var(--color-c998fb);
+    stroke: var(--color-a65cf0);
+  }
+  &__link:focus-visible svg path {
+    stroke: var(--color-fff);
+  }
+  @media (any-hover: hover) {
+    &__link:hover svg circle {
+      stroke: var(--color-a65cf0);
+      fill: var(--color-a65cf0);
+    }
+    &__link:hover svg path {
+      stroke: var(--color-fff);
+    }
+    &__link:hover span::after {
+      opacity: 1;
+    }
+  }
+  &__link:active {
+    color: var(--color-7033ac);
+  }
+  &__link:active svg circle {
+    stroke: var(--color-7033ac);
+    fill: var(--color-7033ac);
+  }
+  &__link:active svg path {
+    stroke: var(--color-fff);
+  }
+  &__link:active span::after {
+    opacity: 1;
+    background-color: var(--color-7033ac);
+  }
+}

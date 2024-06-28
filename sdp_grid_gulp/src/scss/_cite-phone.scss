@@ -1,0 +1,35 @@
+.cite-phone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 143px;
+  height: 22px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: var(--color-ff862f);
+  transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+.cite-phone svg {
+  fill: currentColor;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  transition: fill .3s ease-in-out;
+}
+.cite-phone:focus {
+  outline: none;
+}
+.cite-phone:focus-visible {
+  background-color: var(--color-fff5d1);
+}
+@media (any-hover: hover) {
+  .cite-phone:hover {
+    background-color: transparent;
+    color: var(--color-ffbd59);
+  }
+}
+.cite-phone:active {
+  background-color: transparent;
+  color: var(--color-bb370e);
+}

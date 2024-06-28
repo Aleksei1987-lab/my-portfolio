@@ -1,0 +1,19 @@
+
+.cite-input {
+  border: 1px solid transparent;
+  background-color: var(--color-f6f6f6);
+  transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
+}
+.cite-input:focus {
+  outline: none;
+}
+.cite-input:focus-visible {
+  border-color: var(--color-a65cf0);
+  background-color: var(--color-f8efff);
+}
+@media (any-hover: hover) {
+  .cite-input:hover {
+    border-color: transparent;
+    background-color: var(--color-eaeaea);
+  }
+}

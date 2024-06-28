@@ -1,0 +1,32 @@
+
+.crumps {
+  padding-top: 23px;
+  &__list {
+    display: flex;
+    gap: 7px;
+  }
+  &__item {
+    position: relative;
+    color: var(--color-999);
+  }
+  &__item:not(:last-of-type)::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -4px;
+    width: 1px;
+    height: calc(100% - 2px);
+    background-color: currentColor;
+    transform: rotate(15deg);
+  }
+  &__item:last-of-type {
+    color: var(--color-7033ac);
+  }
+  &__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: currentColor;
+  }
+}

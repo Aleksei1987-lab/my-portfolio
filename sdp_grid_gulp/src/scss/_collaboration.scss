@@ -1,0 +1,83 @@
+
+.collaboration-page {
+  .collaboration {
+    padding-bottom: 66px;
+    &__wrapper {
+      row-gap: 31px;
+    }
+    &__title {
+      margin: 0;
+      margin-bottom: 34px;
+      line-height: 100%;
+      letter-spacing: .8px;
+    }
+    &__item {
+      grid-column: span 8;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    &__gifts {
+      grid-column: span 6;
+      gap: 12px;
+    }
+    &__item-title {
+      line-height: 138%;
+      letter-spacing: .8px;
+    }
+    &__item-descr {
+      line-height: 180%;
+      letter-spacing: .6px;
+    }
+    &__gifts-descr {
+      padding-left: 37px;
+      line-height: 150%;
+    }
+    &__item-subtitle {
+      margin: 0;
+      font-weight: 600;
+      font-size: 16px;
+      color: var(--color-ff862f);
+    }
+    &__counter {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    &__clause {
+      line-height: 180%;
+      letter-spacing: .5px;
+    }
+    &__warranty {
+      grid-column: span 6;
+      padding: 22px 0 23px 109px;
+      background-image: url('../img/collaboration.svg');
+      background-position: left center;
+      background-repeat: no-repeat;
+      background-size: 77px 116px;
+    }
+    &__warranty-text {
+      line-height: 150%;
+      letter-spacing: .6px;
+    }
+
+  }
+  .collaboration-gifts1 {
+    background-image: url('../img/collaboration1.svg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+  }
+  .collaboration-gifts2 {
+    background-image: url('../img/collaboration2.svg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+  }
+  .collaboration-gifts3 {
+    background-image: url('../img/collaboration3.svg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+  }
+}

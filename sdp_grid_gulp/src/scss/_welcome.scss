@@ -1,0 +1,68 @@
+
+
+.welcome {
+  padding-bottom: 67px;
+  &__left {
+    grid-column: span 6;
+  }
+  &__right {
+    grid-column: span 6;
+    display: flex;
+    align-items: center;
+  }
+  &__title {
+    margin-bottom: 5px;
+    line-height: 118%;
+    letter-spacing: .6px;
+  }
+  &__descr {
+    max-width: 600px;
+    margin: 0;
+    margin-bottom: 16px;
+    line-height: 140%;
+    letter-spacing: .5px;
+  }
+  &__form {
+    font-size: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  &__form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  &__form-wrapper .custom-checkbox {
+    gap: 6px;
+  }
+  &__form-wrapper .custom-checkbox__icon {
+    width: 15px;
+    height: 15px;
+  }
+  &__input {
+    width: 100%;
+    padding: 16px 18px 14px 18px;
+    border-radius: 10px;
+  }
+  &__btn {
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: .3px;
+    padding: 19px 33px 14px;
+  }
+  &__privacy {
+    color: var(--color-333);
+  }
+  &__link {
+    text-decoration: underline;
+    color: var(--color-a65cf0);
+  }
+}
+.welcome-bgr {
+  background-image: url('../img/welcome-bgr-1920.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 624px 383px;
+}

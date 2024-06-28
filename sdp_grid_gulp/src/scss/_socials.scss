@@ -1,0 +1,36 @@
+.footer {
+  &__socials {
+    display: flex;
+    gap: 13px;
+  }
+  &__social-link {
+    display: inline-block;
+    padding: 3px;
+    color: var(--color-999);
+    transition: background-color .3s ease-in-out;
+  }
+  &__social-link svg path {
+    fill: currentColor;
+    transition: fill .3s ease-in-out;
+  }
+  &__social-link:focus {
+    outline: none;
+  }
+  &__social-link:focus-visible {
+    background-color: var(--color-c998fb);
+  }
+  &__social-link:focus-visible svg path {
+    fill: var(--color-fff);
+  }
+  @media (any-hover: hover) {
+    &__social-link:hover svg path {
+      fill: var(--color-a65cf0);
+    }
+  }
+  &__social-link:active svg path {
+    fill: var(--color-7033ac);
+  }
+  &__social-link:active {
+    background: transparent;
+  }
+}

@@ -1,0 +1,22 @@
+
+.links {
+  letter-spacing: .5px;
+  padding: 2px 3px;
+  transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+.links:focus {
+  outline: none;
+}
+.links:focus-visible {
+  background-color: var(--color-ebd1ff);
+}
+@media (any-hover: hover) {
+  .links:hover {
+    background-color: transparent;
+    color: var(--color-a65cf0);
+  }
+}
+.links:active {
+  background-color: transparent;
+  color: var(--color-7033ac);
+}

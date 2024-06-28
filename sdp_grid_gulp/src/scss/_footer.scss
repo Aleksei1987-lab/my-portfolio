@@ -1,0 +1,36 @@
+
+.footer {
+  &__top {
+    padding: 27px 0 23px;
+    background-color: var(--color-eaeaea);
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__right {
+    display: flex;
+    align-items: flex-start;
+    gap: 123px;
+  }
+  &__right-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__right-title {
+    margin-bottom: 4px;
+    letter-spacing: .6px;
+  }
+  &__bottom {
+    padding-top: 8px;
+    padding-bottom: 6px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+}

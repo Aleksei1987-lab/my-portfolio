@@ -1,0 +1,23 @@
+
+.hero {
+  &__wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url('../img/hero-1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  &__content {
+    max-width: 496px;
+  }
+  &__title {
+    margin: 0;
+    margin-bottom: 47px;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 2px;
+    line-height: 140%;
+    color: var(--color-999);
+  }
+}

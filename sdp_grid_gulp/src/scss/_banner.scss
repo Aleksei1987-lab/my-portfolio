@@ -1,0 +1,36 @@
+
+.banner {
+  &__wrapper {
+    background-image: url('../img/banner-1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &__container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  &__title {
+    max-width: 500px;
+    margin-bottom: 47px;
+  }
+  &__title-part1 {
+    display: block;
+    font-family: var(--second-family);
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 130%;
+    color: #d5b986;
+  }
+  &__title-part2 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 119%;
+    letter-spacing: 1.6px;
+    color: var(--color-fff);
+  }
+  &__btn {
+    padding: 20px 30px;
+  }
+}

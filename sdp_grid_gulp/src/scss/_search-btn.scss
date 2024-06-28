@@ -1,0 +1,51 @@
+
+
+.search-btn {
+  position: absolute;
+  right: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-a65cf0);
+}
+.search-btn svg circle {
+  stroke: currentColor;
+  fill: transparent;
+  transition: stroke .3s ease-in-out, fill .3s ease-in-out;
+}
+.search-btn svg path {
+  stroke: currentColor;
+  transition: fill .3s ease-in-out;
+}
+.search-btn:focus {
+  outline: none;
+}
+.search-btn:focus-visible svg circle {
+  stroke: var(--color-a65cf0);
+  fill: var(--color-c998fb);
+}
+.search-btn:focus-visible svg path {
+  stroke: var(--color-fff);
+}
+@media (any-hover: hover) {
+  .search-btn:hover svg circle {
+    stroke: var(--color-a65cf0);
+    fill: var(--color-a65cf0);
+  }
+  .search-btn:hover svg path {
+    stroke: var(--color-fff);
+  }
+}
+.search-btn:active svg circle {
+  stroke: var(--color-7033ac);
+  fill: var(--color-7033ac);
+}
+.search-btn:active svg path {
+  stroke: var(--color-fff);
+}
+.search-btn:disabled svg circle {
+  stroke: var(--color-999);
+  fill: transparent;
+}
+.search-btn:disabled svg path {
+  stroke: var(--color-999);
+}
