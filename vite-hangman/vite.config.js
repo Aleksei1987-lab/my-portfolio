@@ -1,3 +1,3 @@
 export default {
-    base: '/vite-hangman/'
+    base: '/my-portfolio/'
 } 
